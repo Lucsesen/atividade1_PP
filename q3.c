@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-//para compilar usando gcc gcc q2.c -o q2.exe   
-//executar .\q2.exe
+//para compilar usando gcc gcc q3.c -o q3.exe   
+//executar .\q3.exe
 
 void preencherVetor(int v[20]) {
   int contadorPar = 0;
