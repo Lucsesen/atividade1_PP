@@ -36,7 +36,7 @@ void preencherVetor(int v[20]) {
 
 void organizarVetor(int v[20]) {
   for (int i = 0; i < 20; i++) {
-    if (i % 2 == 0 && v[i] % 2 == 0) {
+    if ( (v[i] % 2) == (i % 2)  ) {
       for (int j = i + 1; j < 20; j++) {
         if ((j % 2) != (i % 2) && (v[j] % 2) == (j % 2)) {
           int tmp = v[i];
